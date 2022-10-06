@@ -1,0 +1,15 @@
+#For one time roll
+from random import randint
+
+dice_roll = randint(1,6) 
+#You can change numbers to anything you want, it can go up to 1 million if you really want it to
+print("You Threw a", dice_roll)
+#That's for one time throw but if you want it for multiple people then do this
+
+#For multiple roles 
+import time
+from random import randint
+for j in range(10):
+    dice_roll = randint(1,6)
+    time.sleep(3)
+    print("You threw a", dice_roll)
